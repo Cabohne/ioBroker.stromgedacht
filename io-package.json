@@ -1,0 +1,33 @@
+{
+  "common": {
+    "name": "stromgedacht",
+    "version": "0.2.0",
+    "title": "StromGedacht",
+    "desc": {
+      "en": "StromGedacht API adapter",
+      "de": "StromGedacht API Adapter"
+    },
+    "authors": [
+      "Your Name <mail@example.com>"
+    ],
+    "license": "MIT",
+    "mode": "daemon",
+    "platform": "Javascript/Node.js",
+    "schedule": "*/5 * * * *",
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json"
+    },
+    "news": {
+      "0.2.0": {
+        "en": "Release-ready version",
+        "de": "Release-fertige Version"
+      }
+    }
+  },
+  "native": {
+    "updateInterval": 5,
+    "forecastHours": 24
+  }
+}

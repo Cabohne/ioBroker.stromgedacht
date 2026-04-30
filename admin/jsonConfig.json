@@ -1,0 +1,19 @@
+{
+  "type": "panel",
+  "items": {
+    "updateInterval": {
+      "type": "number",
+      "label": "Update-Intervall (Minuten)",
+      "min": 1,
+      "max": 60,
+      "default": 5
+    },
+    "forecastHours": {
+      "type": "number",
+      "label": "Forecast-Stunden",
+      "min": 1,
+      "max": 48,
+      "default": 24
+    }
+  }
+}
