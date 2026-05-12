@@ -1,5 +1,5 @@
 
-import utils from "@iobroker/adapter-core";
+import * as utils from "@iobroker/adapter-core";
 import axios from "axios";
 
 class StromGedacht extends utils.Adapter {
