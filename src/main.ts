@@ -13,6 +13,11 @@ class StromGedacht extends utils.Adapter {
 
     async onReady() {
         await this.createStates();
+        await this.setStateAsync(
+            "info.zip",
+            (this.config as any).zip || "70173",
+            true
+        );
         await this.updateData();
 
         const interval = ((this.config as any).updateInterval || 5) * 60 * 1000;
@@ -23,6 +28,7 @@ class StromGedacht extends utils.Adapter {
         await this.setObjectNotExistsAsync("current.level",{type:"state",common:{name:"Level",type:"number",role:"indicator",read:true,write:false},native:{}});
         await this.setObjectNotExistsAsync("current.name",{type:"state",common:{name:"Name",type:"string",role:"text",read:true,write:false},native:{}});
         await this.setObjectNotExistsAsync("current.text",{type:"state",common:{name:"Text",type:"string",role:"text",read:true,write:false},native:{}});
+        await this.setObjectNotExistsAsync("info.zip",{type:"state",common:{name:"Configured ZIP code",type:"string",role:"info",read: true,write: false},native:{}});        
     }
 
     async updateData() {
