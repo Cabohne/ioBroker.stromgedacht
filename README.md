@@ -1,7 +1,7 @@
 
 # ioBroker.stromgedacht
 
-(icon)  
+![Logo](admin/stromgedacht.png)    
 Adapter für die StromGedacht API.  
 Dieser Adapter nutzt öffentliche Daten, die von StromGedacht / TransnetBW GmbH [https://api.stromgedacht.de](https://api.stromgedacht.de) bereitgestellt werden.  
 StromGedacht ist eine Marke der TransnetBW GmbH.  
