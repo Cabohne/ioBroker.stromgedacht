@@ -1,7 +1,7 @@
 
 # ioBroker.stromgedacht
 
-<img src="admin/stromgedacht.png" width="50" height="50">
+<img src="admin/stromgedacht.png" width="100" height="100">
     
 Adapter für die StromGedacht API.  
 Dieser Adapter nutzt öffentliche Daten, die von StromGedacht / TransnetBW GmbH [https://api.stromgedacht.de](https://api.stromgedacht.de) bereitgestellt werden.  
@@ -751,7 +751,7 @@ Weitere Infos, siehe auch [stromgedacht.de](https://www.stromgedacht.de/)
 </details>
 
 ## Vis Beispiel
-tbd
+<img src="admin/VisExample.png">
 
 ## Version
 0.2.0
