@@ -5,10 +5,7 @@
   "main": "build/main.js",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm run build",
-    "start": "node build/main.js",
-    "check": "npx iobroker.adapter-check",
-    "test": "npm run test:package",
+    "check": "npm run test:package",
     "test:package": "mocha test/package --exit"
   },
   "dependencies": {
