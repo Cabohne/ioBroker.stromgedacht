@@ -3,6 +3,11 @@
     "name": "stromgedacht",
     "version": "0.2.0",
     "title": "StromGedacht",
+    "titleLang": {
+      "en": "StromGedacht",
+      "de": "StromGedacht"
+    },
+    "type": "energy",
     "desc": {
       "en": "StromGedacht API adapter",
       "de": "StromGedacht API Adapter"
