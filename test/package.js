@@ -1,3 +1,6 @@
+"use strict";
+
 const { tests } = require("@iobroker/testing");
 
-tests.packageFiles(__dirname);
+// Validate the package files
+tests.packageFiles();
