@@ -4,21 +4,33 @@
     "zip": {
       "type": "text",
       "label": "Postleitzahl",
-      "default": "70173"
+      "default": "70173",
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     },
     "updateInterval": {
       "type": "number",
       "label": "Update-Intervall (Minuten)",
       "min": 10,
       "max": 600,
-      "default": 10
+      "default": 10,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     },
     "forecastHours": {
       "type": "number",
       "label": "Forecast-Stunden",
       "min": 1,
       "max": 48,
-      "default": 24
+      "default": 24,
+      "sm": 12,
+      "md": 6,
+      "lg": 4,
+      "xl": 4
     }
   }
 }
