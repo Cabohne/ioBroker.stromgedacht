@@ -6,7 +6,7 @@ class StromGedacht extends utils.Adapter {
     private interval: any;
 
     constructor(options: Partial<utils.AdapterOptions> = {}) {
-        super({ ...options, name: "stromgedacht" });
+        super({ ...options, name: "stromgedacht-api" });
         this.on("ready", this.onReady.bind(this));
         this.on("unload", this.onUnload.bind(this));
     }
