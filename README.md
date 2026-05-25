@@ -1,5 +1,5 @@
 
-# ioBroker.stromgedacht
+# ioBroker.stromgedacht-api
 
 <img src="admin/stromgedacht.png" width="100" height="100">
     
