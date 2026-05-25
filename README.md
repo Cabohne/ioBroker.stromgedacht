@@ -759,3 +759,17 @@ Weitere Infos, siehe auch [stromgedacht.de](https://www.stromgedacht.de/)
 
 ## Version
 0.2.0
+
+## Changelog
+
+### 0.2.0
+- Initial public release
+- Forecast support
+- Timeline JSON
+- Configurable ZIP code
+
+## License
+
+MIT License
+
+Copyright (c) 2026 Cabohne
